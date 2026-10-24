@@ -1,0 +1,1463 @@
+{
+  "weights": "dinov2_vitb14_reg4_pretrain.pth",
+  "weights_sha256": "73182a088cf94833c94b1666d1c99e02fe87e2007bff57b564fb6206e25dba71",
+  "repository": "facebookresearch/dinov2",
+  "revision": "",
+  "architecture": "DINOv2 ViT-B/14, four registers",
+  "strict_load": true,
+  "frozen": true,
+  "image_size": 224,
+  "normalization_mean": [
+    0.48500001430511475,
+    0.4560000002384186,
+    0.4059999883174896
+  ],
+  "normalization_std": [
+    0.2290000021457672,
+    0.2240000069141388,
+    0.22499999403953552
+  ],
+  "extraction_seconds": 113.94302579999203,
+  "images": [
+    {
+      "state": [
+        0,
+        0,
+        0
+      ],
+      "style": 0,
+      "path": "images/card_000.png",
+      "sha256": "3e3df4a559b23741b7c7216c063e7a04dbf1f4576501ff594c5fb07513a672b8"
+    },
+    {
+      "state": [
+        0,
+        0,
+        1
+      ],
+      "style": 0,
+      "path": "images/card_001.png",
+      "sha256": "bed9bde30380238b46d06a7a2012421c4c57912f24b0b17e072bfd50acee47fe"
+    },
+    {
+      "state": [
+        0,
+        1,
+        0
+      ],
+      "style": 0,
+      "path": "images/card_002.png",
+      "sha256": "846cfa89ef102178400c5148f9b49e0c118aa55f1af901da5bb84edff9129db5"
+    },
+    {
+      "state": [
+        0,
+        1,
+        1
+      ],
+      "style": 0,
+      "path": "images/card_003.png",
+      "sha256": "ca41621000e2c7d451c886d5e9a02a8f8bf446d30ffb6fcb5b4c3253bbcaf87e"
+    },
+    {
+      "state": [
+        0,
+        2,
+        0
+      ],
+      "style": 0,
+      "path": "images/card_004.png",
+      "sha256": "124a1f8ecd1fa51169c9c12a44a4a40611d1d9f29b985cb31eb7821b7366a3b0"
+    },
+    {
+      "state": [
+        0,
+        2,
+        1
+      ],
+      "style": 0,
+      "path": "images/card_005.png",
+      "sha256": "43a2565ee61843e6aa6618e5a2f18c149fc43e665a05c83961c0a58862fa71cd"
+    },
+    {
+      "state": [
+        1,
+        0,
+        0
+      ],
+      "style": 0,
+      "path": "images/card_006.png",
+      "sha256": "8e279a5ddb1a7cf4613547721ae50b4f1d0b5e48cca34629839fd7939724b27f"
+    },
+    {
+      "state": [
+        1,
+        0,
+        1
+      ],
+      "style": 0,
+      "path": "images/card_007.png",
+      "sha256": "a88e95cba6da7f4c4b2ee302a9648713841f62ba7db62b30eea56242a6d35d68"
+    },
+    {
+      "state": [
+        1,
+        1,
+        0
+      ],
+      "style": 0,
+      "path": "images/card_008.png",
+      "sha256": "0475b55d9827e18febe629d9736050d980eb3f3ef2b6e669ecdac8f2e2378d6a"
+    },
+    {
+      "state": [
+        1,
+        1,
+        1
+      ],
+      "style": 0,
+      "path": "images/card_009.png",
+      "sha256": "92bfb9736aea46cf94c692870ac8d660433ef5f85e71a771e1a9d9a39fd5b1e5"
+    },
+    {
+      "state": [
+        1,
+        2,
+        0
+      ],
+      "style": 0,
+      "path": "images/card_010.png",
+      "sha256": "78c69e207a95e164f8fc8ada2b53df5ecbbaacc370e915fd9ee81cbd4b4646bc"
+    },
+    {
+      "state": [
+        1,
+        2,
+        1
+      ],
+      "style": 0,
+      "path": "images/card_011.png",
+      "sha256": "0f8fbaa1168b3823f7f0bb87ddcde2795a1a12825f1fecd1dd6fdf997b1dfb12"
+    },
+    {
+      "state": [
+        2,
+        0,
+        0
+      ],
+      "style": 0,
+      "path": "images/card_012.png",
+      "sha256": "6bc0cf61204d18a701d6cffe9cfbac806f4f6022689dafd8eb97c78f994e943d"
+    },
+    {
+      "state": [
+        2,
+        0,
+        1
+      ],
+      "style": 0,
+      "path": "images/card_013.png",
+      "sha256": "6966bf021b1304e60c92abfdf8abd26c672fb0fe63dbc083f882b4733c4718bc"
+    },
+    {
+      "state": [
+        2,
+        1,
+        0
+      ],
+      "style": 0,
+      "path": "images/card_014.png",
+      "sha256": "dd677355d3c48af012a29e4b3da6a63eb674a6a28879e07a8518a0cd1228680b"
+    },
+    {
+      "state": [
+        2,
+        1,
+        1
+      ],
+      "style": 0,
+      "path": "images/card_015.png",
+      "sha256": "2a2a055bfaed25ab21ebcdb2fb651b9451de3f5d19e340ea9292e3d135bc6a53"
+    },
+    {
+      "state": [
+        2,
+        2,
+        0
+      ],
+      "style": 0,
+      "path": "images/card_016.png",
+      "sha256": "99aa016bf5eefdb3f3f75987ae50a59a9bd5d14ca84a600b7b8b3469faec502a"
+    },
+    {
+      "state": [
+        2,
+        2,
+        1
+      ],
+      "style": 0,
+      "path": "images/card_017.png",
+      "sha256": "bedcd2ce498c7dee129b6c8bbfcf6935a9a53a24d31dae9293fbfbbd003ed303"
+    },
+    {
+      "state": [
+        0,
+        0,
+        0
+      ],
+      "style": 1,
+      "path": "images/card_018.png",
+      "sha256": "643aa3a8373f36a2208b4a6fc43bce07d8a95ba9c4db5921cc5b21412a2d6ddb"
+    },
+    {
+      "state": [
+        0,
+        0,
+        1
+      ],
+      "style": 1,
+      "path": "images/card_019.png",
+      "sha256": "ee7f18572250edd1a8955409388929401b4a664a8165d8c206c397277657d8d2"
+    },
+    {
+      "state": [
+        0,
+        1,
+        0
+      ],
+      "style": 1,
+      "path": "images/card_020.png",
+      "sha256": "8f33c92c7ca4464ebeb9a72d4c5b0157246d0b1728dc61facbe2afd1cc8b51b0"
+    },
+    {
+      "state": [
+        0,
+        1,
+        1
+      ],
+      "style": 1,
+      "path": "images/card_021.png",
+      "sha256": "58791e3340cfe268fbeac51c52e9348d1a84ba14052913a5777eef8a88d413fc"
+    },
+    {
+      "state": [
+        0,
+        2,
+        0
+      ],
+      "style": 1,
+      "path": "images/card_022.png",
+      "sha256": "acca7e71e2450531679ef1e8921c860cee3514f4babfd2f74016ad0d9bc8f72a"
+    },
+    {
+      "state": [
+        0,
+        2,
+        1
+      ],
+      "style": 1,
+      "path": "images/card_023.png",
+      "sha256": "27335cbf4a476865c63e49862c7c7bb6c401206e4e6900db7422e8af2220b9ec"
+    },
+    {
+      "state": [
+        1,
+        0,
+        0
+      ],
+      "style": 1,
+      "path": "images/card_024.png",
+      "sha256": "e59070da1036987754d5547d51b9b31febb1472cb769942970e6987e71b6ddcd"
+    },
+    {
+      "state": [
+        1,
+        0,
+        1
+      ],
+      "style": 1,
+      "path": "images/card_025.png",
+      "sha256": "c12d3afdea34805f76bf143756a69d7678c1299b06a7952e1befb19a19f4a714"
+    },
+    {
+      "state": [
+        1,
+        1,
+        0
+      ],
+      "style": 1,
+      "path": "images/card_026.png",
+      "sha256": "8586aaeacc7000bb41b4215751323f372995b976cb30b989f2ecd892b5494c79"
+    },
+    {
+      "state": [
+        1,
+        1,
+        1
+      ],
+      "style": 1,
+      "path": "images/card_027.png",
+      "sha256": "48f0daffc4fd7571e8dc1da2b5609ccba88598b22890baec1c54ba8cf24bc013"
+    },
+    {
+      "state": [
+        1,
+        2,
+        0
+      ],
+      "style": 1,
+      "path": "images/card_028.png",
+      "sha256": "e8418367ae71ce70895f169bd38fc545bc5fca5be318bc1ded61e70d519e41cf"
+    },
+    {
+      "state": [
+        1,
+        2,
+        1
+      ],
+      "style": 1,
+      "path": "images/card_029.png",
+      "sha256": "dbd13cdf9445e96d5fbb3aad840cfd0f050e6a660af2bacf25d45f296e318fda"
+    },
+    {
+      "state": [
+        2,
+        0,
+        0
+      ],
+      "style": 1,
+      "path": "images/card_030.png",
+      "sha256": "45855bc2ab1ac4383c6622b97aba4c4e92e5eaa091924b01546a6bd9a6fcef15"
+    },
+    {
+      "state": [
+        2,
+        0,
+        1
+      ],
+      "style": 1,
+      "path": "images/card_031.png",
+      "sha256": "baa647dee39480121e6e39957551863d7c370bd2c6aed98933457cc9c783c12d"
+    },
+    {
+      "state": [
+        2,
+        1,
+        0
+      ],
+      "style": 1,
+      "path": "images/card_032.png",
+      "sha256": "707cded62d67d4c00d4f6277cbbaca8f5a08141a0e99f0e9b17166e92e99b08f"
+    },
+    {
+      "state": [
+        2,
+        1,
+        1
+      ],
+      "style": 1,
+      "path": "images/card_033.png",
+      "sha256": "e4fc4541c3a46c951ef1bbd0009c6cb1476ed7ae156f48485a11f4637e14c309"
+    },
+    {
+      "state": [
+        2,
+        2,
+        0
+      ],
+      "style": 1,
+      "path": "images/card_034.png",
+      "sha256": "ede1d07b5e3b9039a705a4357964fe5b55aace337f00837737f0342327d47328"
+    },
+    {
+      "state": [
+        2,
+        2,
+        1
+      ],
+      "style": 1,
+      "path": "images/card_035.png",
+      "sha256": "1cffa21e94e89eaa7f194aca0b09212f46f36eca3100d8c849abe1192027fdca"
+    },
+    {
+      "state": [
+        0,
+        0,
+        0
+      ],
+      "style": 2,
+      "path": "images/card_036.png",
+      "sha256": "4742d4131c6a317aa88cbc18b37c3147c41162c29a76c8f31f13847e4819e050"
+    },
+    {
+      "state": [
+        0,
+        0,
+        1
+      ],
+      "style": 2,
+      "path": "images/card_037.png",
+      "sha256": "1138055e1a613298b7a7ece2d308077d77d54b4ee35195e04c659f53c3cc82b6"
+    },
+    {
+      "state": [
+        0,
+        1,
+        0
+      ],
+      "style": 2,
+      "path": "images/card_038.png",
+      "sha256": "0d2481e2cde0fb5e9e63f41e801c7c5bfe05bbb3aaf0591f74323049e62f7978"
+    },
+    {
+      "state": [
+        0,
+        1,
+        1
+      ],
+      "style": 2,
+      "path": "images/card_039.png",
+      "sha256": "c374781a2eb1028e93c261937a5600b9a0f85f262e77df5db1b472e8cc725358"
+    },
+    {
+      "state": [
+        0,
+        2,
+        0
+      ],
+      "style": 2,
+      "path": "images/card_040.png",
+      "sha256": "bec9c25ee40450786048a9aabfed7a724613f482cc1a3b6d88d0ce585b19f5bf"
+    },
+    {
+      "state": [
+        0,
+        2,
+        1
+      ],
+      "style": 2,
+      "path": "images/card_041.png",
+      "sha256": "aa4429e2a86285c86a11b713956eb04c53772f9c83bddcc887896cc58abc32d4"
+    },
+    {
+      "state": [
+        1,
+        0,
+        0
+      ],
+      "style": 2,
+      "path": "images/card_042.png",
+      "sha256": "43272b4c46d40542eec0593e435a79c4b06955609838122827aab3b5853ca92a"
+    },
+    {
+      "state": [
+        1,
+        0,
+        1
+      ],
+      "style": 2,
+      "path": "images/card_043.png",
+      "sha256": "287c6455c4eb509cb21dc22d78bfca7addd6758f99efd94b694c3ea24ca1b986"
+    },
+    {
+      "state": [
+        1,
+        1,
+        0
+      ],
+      "style": 2,
+      "path": "images/card_044.png",
+      "sha256": "340967bb8b54096e8c489d1b037fce63a243b7d39d0f21164decaeae5387430f"
+    },
+    {
+      "state": [
+        1,
+        1,
+        1
+      ],
+      "style": 2,
+      "path": "images/card_045.png",
+      "sha256": "7fe586b6e92b4a0e8fde46b1106a26d67199674cf9ce6deee92208f622b6aff6"
+    },
+    {
+      "state": [
+        1,
+        2,
+        0
+      ],
+      "style": 2,
+      "path": "images/card_046.png",
+      "sha256": "b2ea014e4260731567a7b7b3b80451978f4583fe3132e20af1e87622da9f11e7"
+    },
+    {
+      "state": [
+        1,
+        2,
+        1
+      ],
+      "style": 2,
+      "path": "images/card_047.png",
+      "sha256": "c9d1a0f0507e68392f3252539dc80286197127e4b0a39c3b1e0e95392c8b040d"
+    },
+    {
+      "state": [
+        2,
+        0,
+        0
+      ],
+      "style": 2,
+      "path": "images/card_048.png",
+      "sha256": "67e2f4d41308d1e80075f91870b900484a4454d334612fc03392a62d846c6a1b"
+    },
+    {
+      "state": [
+        2,
+        0,
+        1
+      ],
+      "style": 2,
+      "path": "images/card_049.png",
+      "sha256": "228f4df70c4acc20c445dbdcebe4df8af406fa09b9c60e0161d12ee6deeb944b"
+    },
+    {
+      "state": [
+        2,
+        1,
+        0
+      ],
+      "style": 2,
+      "path": "images/card_050.png",
+      "sha256": "2b60341965d804fed144cbfb13ebe4ccd277cd9682ef0db8063a09dbe2860a01"
+    },
+    {
+      "state": [
+        2,
+        1,
+        1
+      ],
+      "style": 2,
+      "path": "images/card_051.png",
+      "sha256": "2feaafca203d384d17814b7a065b8ac83227c1e66f7f01f1451c0f3d32cc6cdf"
+    },
+    {
+      "state": [
+        2,
+        2,
+        0
+      ],
+      "style": 2,
+      "path": "images/card_052.png",
+      "sha256": "12527837c78b8649a82a6d135fbf5732834b4123f7bd13f2613a7ebb5b6f59df"
+    },
+    {
+      "state": [
+        2,
+        2,
+        1
+      ],
+      "style": 2,
+      "path": "images/card_053.png",
+      "sha256": "8ab348c60fd0ed00681660bb877f0eb56444d6d6e0b8e467029a089fe8c4b66c"
+    },
+    {
+      "state": [
+        0,
+        0,
+        0
+      ],
+      "style": 3,
+      "path": "images/card_054.png",
+      "sha256": "a1bdad98a9e81e35298302de40c0d1d1a38b52b7d6341692fe64a49118a9edb6"
+    },
+    {
+      "state": [
+        0,
+        0,
+        1
+      ],
+      "style": 3,
+      "path": "images/card_055.png",
+      "sha256": "1458f562bb94faa132a0b4c840650ae3148a09e699f5ae2250b934866c3219c8"
+    },
+    {
+      "state": [
+        0,
+        1,
+        0
+      ],
+      "style": 3,
+      "path": "images/card_056.png",
+      "sha256": "be9cf684587bb96c9e6f93608f7f919a6548d5170344ad56361f16a5e6402dbb"
+    },
+    {
+      "state": [
+        0,
+        1,
+        1
+      ],
+      "style": 3,
+      "path": "images/card_057.png",
+      "sha256": "500dc5e041e270df0bf98f9bda44f34db6ead987416b8e5ea1319b27a25cb45a"
+    },
+    {
+      "state": [
+        0,
+        2,
+        0
+      ],
+      "style": 3,
+      "path": "images/card_058.png",
+      "sha256": "ef19f09f6c0ae82d6b9750f7eab5b26768e7acbd6de39d0ba31fed70e7eb67f4"
+    },
+    {
+      "state": [
+        0,
+        2,
+        1
+      ],
+      "style": 3,
+      "path": "images/card_059.png",
+      "sha256": "d0a48d7b262cf17d497e9da5ea5b9eb7635e212ca67b97db7cadce62ef1c2060"
+    },
+    {
+      "state": [
+        1,
+        0,
+        0
+      ],
+      "style": 3,
+      "path": "images/card_060.png",
+      "sha256": "49e2be5fb6e57627ace0564c1ba9fb0508ee9b0297dac120ab0e3adb3a986ea2"
+    },
+    {
+      "state": [
+        1,
+        0,
+        1
+      ],
+      "style": 3,
+      "path": "images/card_061.png",
+      "sha256": "f6ec8627ae7668b19337f15540e7269599a896e860cda12d939efb559db77402"
+    },
+    {
+      "state": [
+        1,
+        1,
+        0
+      ],
+      "style": 3,
+      "path": "images/card_062.png",
+      "sha256": "dccd654a039d4296346e39cd50d9af4cfe59ae43886df462ed86285c994e3f56"
+    },
+    {
+      "state": [
+        1,
+        1,
+        1
+      ],
+      "style": 3,
+      "path": "images/card_063.png",
+      "sha256": "0600e84ca89bce3924e0410eb3238efe13e9759c2371042bb590c9d7a391fcd5"
+    },
+    {
+      "state": [
+        1,
+        2,
+        0
+      ],
+      "style": 3,
+      "path": "images/card_064.png",
+      "sha256": "a701cbf3ec42c26550f4821889d8ac10768ebaf077835e68b7bbeca45849edf1"
+    },
+    {
+      "state": [
+        1,
+        2,
+        1
+      ],
+      "style": 3,
+      "path": "images/card_065.png",
+      "sha256": "15177587a838c6a9d61f2cb8272472afc6b9dbd374e57673401fc0b185a0a408"
+    },
+    {
+      "state": [
+        2,
+        0,
+        0
+      ],
+      "style": 3,
+      "path": "images/card_066.png",
+      "sha256": "c9f3e722dcc08f925cdd81ddaeeba454a00d0483b5823c704933779f4a4b16c7"
+    },
+    {
+      "state": [
+        2,
+        0,
+        1
+      ],
+      "style": 3,
+      "path": "images/card_067.png",
+      "sha256": "affc211c7d74e99cc81ec46cc1dead4934d2be7a277c24a60b21918a796cb8a6"
+    },
+    {
+      "state": [
+        2,
+        1,
+        0
+      ],
+      "style": 3,
+      "path": "images/card_068.png",
+      "sha256": "09c085a3346117b3d5902376b501a45df8b305d601e171b42827c71dc0a4775b"
+    },
+    {
+      "state": [
+        2,
+        1,
+        1
+      ],
+      "style": 3,
+      "path": "images/card_069.png",
+      "sha256": "cc7bd0301b1792df6cb11c573c004bf8c52a00e331da0dc9e7793a3d8f383c19"
+    },
+    {
+      "state": [
+        2,
+        2,
+        0
+      ],
+      "style": 3,
+      "path": "images/card_070.png",
+      "sha256": "8f968d99607314d555d8d59044635358067779092eb90c3928ef0f8b81e2c0c9"
+    },
+    {
+      "state": [
+        2,
+        2,
+        1
+      ],
+      "style": 3,
+      "path": "images/card_071.png",
+      "sha256": "3b232ae62294fda5411ad6712eea65459cb786818f2f2aa8100336c6f663bcfe"
+    },
+    {
+      "state": [
+        0,
+        0,
+        0
+      ],
+      "style": 4,
+      "path": "images/card_072.png",
+      "sha256": "04d384eb47def95dddb25ca3e7303c686137d2a40f29c70ebbe9d3d45b4c130a"
+    },
+    {
+      "state": [
+        0,
+        0,
+        1
+      ],
+      "style": 4,
+      "path": "images/card_073.png",
+      "sha256": "bddccb8d61d1a23f7f1e0f4e0ec196b1802c80681c4febd2c79a91a68e726ba4"
+    },
+    {
+      "state": [
+        0,
+        1,
+        0
+      ],
+      "style": 4,
+      "path": "images/card_074.png",
+      "sha256": "86eb4087b5d7f995b666dc892a8e2fbf9bc792625d2c1d5bbcc59d6828a3d961"
+    },
+    {
+      "state": [
+        0,
+        1,
+        1
+      ],
+      "style": 4,
+      "path": "images/card_075.png",
+      "sha256": "e4153868a916ee69668bffb1beaaca791b673fb1456f46d5d6cb61767fe409fe"
+    },
+    {
+      "state": [
+        0,
+        2,
+        0
+      ],
+      "style": 4,
+      "path": "images/card_076.png",
+      "sha256": "e25915cc8f6ba642fc65f50977ff11fab91e5edc838d668bac0b9d5c88c34c23"
+    },
+    {
+      "state": [
+        0,
+        2,
+        1
+      ],
+      "style": 4,
+      "path": "images/card_077.png",
+      "sha256": "47be0a13fab02b38d2c343d4022cff18dd8898a31b1182e2714f423483e2a135"
+    },
+    {
+      "state": [
+        1,
+        0,
+        0
+      ],
+      "style": 4,
+      "path": "images/card_078.png",
+      "sha256": "04ee4631871ed49a5839efabbfe26289a9708dfde10fe8648dd86d16743c3223"
+    },
+    {
+      "state": [
+        1,
+        0,
+        1
+      ],
+      "style": 4,
+      "path": "images/card_079.png",
+      "sha256": "9d9eaaa1ddfb637970ddb727415088d3e2dcc3547df8842320e6f620aff43f34"
+    },
+    {
+      "state": [
+        1,
+        1,
+        0
+      ],
+      "style": 4,
+      "path": "images/card_080.png",
+      "sha256": "80d014674507b504fbea0bf2716477414dec4609fa741104474f9e8b3ce0c2eb"
+    },
+    {
+      "state": [
+        1,
+        1,
+        1
+      ],
+      "style": 4,
+      "path": "images/card_081.png",
+      "sha256": "4f5eb6073d5ea26086a7cf0007999daf99b277f1809795c30d6a2058d028a02f"
+    },
+    {
+      "state": [
+        1,
+        2,
+        0
+      ],
+      "style": 4,
+      "path": "images/card_082.png",
+      "sha256": "857434c91926e75a10deb40051f7b4dcd58ae9edc792c0c751e429d267702908"
+    },
+    {
+      "state": [
+        1,
+        2,
+        1
+      ],
+      "style": 4,
+      "path": "images/card_083.png",
+      "sha256": "9290ce602071274c1feccbabdc7fc81854da0dc1e8d828828388e498eb6a3b4a"
+    },
+    {
+      "state": [
+        2,
+        0,
+        0
+      ],
+      "style": 4,
+      "path": "images/card_084.png",
+      "sha256": "0771e5724c93dd94e72fb0f4c5babd1044364e512c6d18bb484ae1f442ba6515"
+    },
+    {
+      "state": [
+        2,
+        0,
+        1
+      ],
+      "style": 4,
+      "path": "images/card_085.png",
+      "sha256": "cde583c19281cbeeb0fa78ae4629516fbd26926834e01af602264bab37580dc3"
+    },
+    {
+      "state": [
+        2,
+        1,
+        0
+      ],
+      "style": 4,
+      "path": "images/card_086.png",
+      "sha256": "929d0a291f2a317468607876a641718f41bf718784f88b37f31f85e248259ab2"
+    },
+    {
+      "state": [
+        2,
+        1,
+        1
+      ],
+      "style": 4,
+      "path": "images/card_087.png",
+      "sha256": "1ee9fdf5d9db10a7ca3b20d4640571161bc82cc97244129a150d46b5a8856253"
+    },
+    {
+      "state": [
+        2,
+        2,
+        0
+      ],
+      "style": 4,
+      "path": "images/card_088.png",
+      "sha256": "4191ddbe821aaacc4b6e97cacd877ab979901b921b0e53d6068747740ecc0a0a"
+    },
+    {
+      "state": [
+        2,
+        2,
+        1
+      ],
+      "style": 4,
+      "path": "images/card_089.png",
+      "sha256": "b683569f976293d6c8556f6c2e70b4352bcef95c4037692d7f65d22dcb213578"
+    },
+    {
+      "state": [
+        0,
+        0,
+        0
+      ],
+      "style": 5,
+      "path": "images/card_090.png",
+      "sha256": "544d395e756e235fb29a22b32d43511c88bba05705e3c9f50d3ac846d70c94bf"
+    },
+    {
+      "state": [
+        0,
+        0,
+        1
+      ],
+      "style": 5,
+      "path": "images/card_091.png",
+      "sha256": "b1cb69ce4896a29fa5c33afbadc2fd83b8b912f2918bebaebad30848d8bc0e70"
+    },
+    {
+      "state": [
+        0,
+        1,
+        0
+      ],
+      "style": 5,
+      "path": "images/card_092.png",
+      "sha256": "9ad0a4e5c2b653e81cb469e198f3b4014347577100866556fa031617ce8e509b"
+    },
+    {
+      "state": [
+        0,
+        1,
+        1
+      ],
+      "style": 5,
+      "path": "images/card_093.png",
+      "sha256": "100db39578adf2e9473a8fbab1531e057722067a892cc60a0473000b852bce05"
+    },
+    {
+      "state": [
+        0,
+        2,
+        0
+      ],
+      "style": 5,
+      "path": "images/card_094.png",
+      "sha256": "25e0ddd1b513918baf1d3b72b31d0d7160695a82e5f61f137b8da73938c42b3c"
+    },
+    {
+      "state": [
+        0,
+        2,
+        1
+      ],
+      "style": 5,
+      "path": "images/card_095.png",
+      "sha256": "da718e11a8efecb0cf4ffcbae490187ec532c8d16db99b82ae3a61249b22d7ba"
+    },
+    {
+      "state": [
+        1,
+        0,
+        0
+      ],
+      "style": 5,
+      "path": "images/card_096.png",
+      "sha256": "014e466d8484c41ebd887cdc60356cf2b5626fbe3d5e75709026830d83e5504b"
+    },
+    {
+      "state": [
+        1,
+        0,
+        1
+      ],
+      "style": 5,
+      "path": "images/card_097.png",
+      "sha256": "0aea16215663d5ab6749808af12bc1d4b23a5ef83df1ce32d180ae5606489200"
+    },
+    {
+      "state": [
+        1,
+        1,
+        0
+      ],
+      "style": 5,
+      "path": "images/card_098.png",
+      "sha256": "fcdfcc1345fec5a8923e695b817b4424c88e8e56245030b3af49effa3f0a0cdc"
+    },
+    {
+      "state": [
+        1,
+        1,
+        1
+      ],
+      "style": 5,
+      "path": "images/card_099.png",
+      "sha256": "66475ba7fc66d1f7a85a5156d44d54b06114f8c2e7b2629494565702ed10b5e2"
+    },
+    {
+      "state": [
+        1,
+        2,
+        0
+      ],
+      "style": 5,
+      "path": "images/card_100.png",
+      "sha256": "4909ecfbd928e8d00b39449bd85fe2941efb8b75bb14a9c8b83cc960553daa24"
+    },
+    {
+      "state": [
+        1,
+        2,
+        1
+      ],
+      "style": 5,
+      "path": "images/card_101.png",
+      "sha256": "ce85f647d4b47b014b59cdc41000ab1dedee02e4540e029d9383c9663d154cc0"
+    },
+    {
+      "state": [
+        2,
+        0,
+        0
+      ],
+      "style": 5,
+      "path": "images/card_102.png",
+      "sha256": "c4e9402a668afccd175c2ef06ba58e8a9facead06947c625d47a2185e7763696"
+    },
+    {
+      "state": [
+        2,
+        0,
+        1
+      ],
+      "style": 5,
+      "path": "images/card_103.png",
+      "sha256": "52146c2bbc8449bac275d4f62c875bd4d6bef7933d9c250aaed3944ef001d397"
+    },
+    {
+      "state": [
+        2,
+        1,
+        0
+      ],
+      "style": 5,
+      "path": "images/card_104.png",
+      "sha256": "d87a1a8e11a57a20b2502752a03e58e90e42074d42a20dd9c7ed318cb86baa2e"
+    },
+    {
+      "state": [
+        2,
+        1,
+        1
+      ],
+      "style": 5,
+      "path": "images/card_105.png",
+      "sha256": "d83e6a0c05e14f9c559c919dbd0e396052a5acc5438f32995fabff742a737535"
+    },
+    {
+      "state": [
+        2,
+        2,
+        0
+      ],
+      "style": 5,
+      "path": "images/card_106.png",
+      "sha256": "3094ac8b3cda353b3284ae8fd3448cc99f1d49a06ada759c41047ff21a519908"
+    },
+    {
+      "state": [
+        2,
+        2,
+        1
+      ],
+      "style": 5,
+      "path": "images/card_107.png",
+      "sha256": "806c9b0b5039dc0938e08f702be3f7832482f27a2f87f1dadb9b62208a06197b"
+    },
+    {
+      "state": [
+        0,
+        0,
+        0
+      ],
+      "style": 6,
+      "path": "images/card_108.png",
+      "sha256": "bf78a412e4484fb5840afdeffef4ebd39c4c70fedbb016c5187ef9b63c2098c4"
+    },
+    {
+      "state": [
+        0,
+        0,
+        1
+      ],
+      "style": 6,
+      "path": "images/card_109.png",
+      "sha256": "ed5092b53b31a9670fb892cbaab5898bf5ffb537f6a28f3b16bfc31b90add2bb"
+    },
+    {
+      "state": [
+        0,
+        1,
+        0
+      ],
+      "style": 6,
+      "path": "images/card_110.png",
+      "sha256": "20e031821d77c6ba72173d0ac2bb74020fc4ccc5e525b16a33b123482d67d4a5"
+    },
+    {
+      "state": [
+        0,
+        1,
+        1
+      ],
+      "style": 6,
+      "path": "images/card_111.png",
+      "sha256": "08147bdbb74fb4a06ff4d5a3c6a42c34feb0321452057fbd30539bca2cbe0df6"
+    },
+    {
+      "state": [
+        0,
+        2,
+        0
+      ],
+      "style": 6,
+      "path": "images/card_112.png",
+      "sha256": "dd11e66d69cbae95a680a2b323be83df075d249f479c8b1a4861a05dde87aba3"
+    },
+    {
+      "state": [
+        0,
+        2,
+        1
+      ],
+      "style": 6,
+      "path": "images/card_113.png",
+      "sha256": "2969fdf7615906847bf601efd6cd9427a68195cce1bc784518eab64fb8394078"
+    },
+    {
+      "state": [
+        1,
+        0,
+        0
+      ],
+      "style": 6,
+      "path": "images/card_114.png",
+      "sha256": "9fc74ea394462cdcc6f3e8cf799a718c8dd2b289845d92a09c0c6646629193bd"
+    },
+    {
+      "state": [
+        1,
+        0,
+        1
+      ],
+      "style": 6,
+      "path": "images/card_115.png",
+      "sha256": "365a3db5176f25017da0a5d058f89bd33248cb970c92df22481a18c9664d0bc8"
+    },
+    {
+      "state": [
+        1,
+        1,
+        0
+      ],
+      "style": 6,
+      "path": "images/card_116.png",
+      "sha256": "3bbd42ea73faa58e072e3d7bac3a508390cfd4fdaf3a64ca5de32193f1364d98"
+    },
+    {
+      "state": [
+        1,
+        1,
+        1
+      ],
+      "style": 6,
+      "path": "images/card_117.png",
+      "sha256": "7561b70e3bf23b992a1b91cf5df24ee715d6d493998ca374641bd029cfa1289d"
+    },
+    {
+      "state": [
+        1,
+        2,
+        0
+      ],
+      "style": 6,
+      "path": "images/card_118.png",
+      "sha256": "2222ada28fa8153abaa517ac87c99943d621375810653609cac56dcbdebe51f4"
+    },
+    {
+      "state": [
+        1,
+        2,
+        1
+      ],
+      "style": 6,
+      "path": "images/card_119.png",
+      "sha256": "1679376b7beae19833c0ab4f1cac88e059c02d0d7ba284221bd1976385f0de0a"
+    },
+    {
+      "state": [
+        2,
+        0,
+        0
+      ],
+      "style": 6,
+      "path": "images/card_120.png",
+      "sha256": "071784eb09a34a22eff516d1990723f69e63d70416255b5b9865702d7608d442"
+    },
+    {
+      "state": [
+        2,
+        0,
+        1
+      ],
+      "style": 6,
+      "path": "images/card_121.png",
+      "sha256": "a54d1f67d7354b5f3f04bbcc10f7486c9c4f85e7d914550bb1427eb44cacfc9a"
+    },
+    {
+      "state": [
+        2,
+        1,
+        0
+      ],
+      "style": 6,
+      "path": "images/card_122.png",
+      "sha256": "5cba8e37057ada089aa741a0a470145dbe876b444bc4b12a98f605dffcb35d2f"
+    },
+    {
+      "state": [
+        2,
+        1,
+        1
+      ],
+      "style": 6,
+      "path": "images/card_123.png",
+      "sha256": "72629c64b81d0a927aa1a25ae1c8766212cb79c7a595819db28a150921423af7"
+    },
+    {
+      "state": [
+        2,
+        2,
+        0
+      ],
+      "style": 6,
+      "path": "images/card_124.png",
+      "sha256": "acb57767ef7ce21c7637fc777401c1503149f3e7912c934e4c8cd50859640d5b"
+    },
+    {
+      "state": [
+        2,
+        2,
+        1
+      ],
+      "style": 6,
+      "path": "images/card_125.png",
+      "sha256": "b1dbfae86407945e02a3a817eb69d6ac86347016fbc48a19864415fd52c1758a"
+    },
+    {
+      "state": [
+        0,
+        0,
+        0
+      ],
+      "style": 7,
+      "path": "images/card_126.png",
+      "sha256": "c1a896146aaf4f46cbf1ded99c366c023c7cbe65e37ca2ebffaefd2f29b9a80c"
+    },
+    {
+      "state": [
+        0,
+        0,
+        1
+      ],
+      "style": 7,
+      "path": "images/card_127.png",
+      "sha256": "f52b920d6ad4e8637e63267b8aa1713443c347cbb4f424ecb08a7efa0e98a8f0"
+    },
+    {
+      "state": [
+        0,
+        1,
+        0
+      ],
+      "style": 7,
+      "path": "images/card_128.png",
+      "sha256": "c64aa71975e6c5bc3299c5ad3b14aea094e0c9218375093c89681cc0a87b0f81"
+    },
+    {
+      "state": [
+        0,
+        1,
+        1
+      ],
+      "style": 7,
+      "path": "images/card_129.png",
+      "sha256": "f6eb3675e7433b295db5e41ce1845ed515ac1c37d92d06d1fea391690342bdf1"
+    },
+    {
+      "state": [
+        0,
+        2,
+        0
+      ],
+      "style": 7,
+      "path": "images/card_130.png",
+      "sha256": "d5f01c8cc104bda0af78f2920bb26c68702d1088a270975321444f7741ee0be5"
+    },
+    {
+      "state": [
+        0,
+        2,
+        1
+      ],
+      "style": 7,
+      "path": "images/card_131.png",
+      "sha256": "e4dff43a218ca9be5a5021bd104464d05471cb1ab7d7285a93e44f7ecf80f4ea"
+    },
+    {
+      "state": [
+        1,
+        0,
+        0
+      ],
+      "style": 7,
+      "path": "images/card_132.png",
+      "sha256": "fd6dfc9c156e77c66a5ef4cb94b86062c7644d6110e6474a003cdb5a68600dde"
+    },
+    {
+      "state": [
+        1,
+        0,
+        1
+      ],
+      "style": 7,
+      "path": "images/card_133.png",
+      "sha256": "c6e3285f0314e2fdb97995baa5f3b97f5e0b0b3e154357ae012bc40e163a5be4"
+    },
+    {
+      "state": [
+        1,
+        1,
+        0
+      ],
+      "style": 7,
+      "path": "images/card_134.png",
+      "sha256": "ae688377171e866706b659ab91427137964435085a03046f2fe1d5c4dbc686ac"
+    },
+    {
+      "state": [
+        1,
+        1,
+        1
+      ],
+      "style": 7,
+      "path": "images/card_135.png",
+      "sha256": "ae63e8ada294838a96c58c9546782b1a31a53d65e5c60b236cc8c53ee82607d3"
+    },
+    {
+      "state": [
+        1,
+        2,
+        0
+      ],
+      "style": 7,
+      "path": "images/card_136.png",
+      "sha256": "4a76effcbd6548a1d02fba32197abd719593d3e932ab7f78c6e920bb8adbf6c4"
+    },
+    {
+      "state": [
+        1,
+        2,
+        1
+      ],
+      "style": 7,
+      "path": "images/card_137.png",
+      "sha256": "0961c1cb469f2e6f97a4f6ecbac2d211f23abb8520cb58e31e618cfc3ee50fbd"
+    },
+    {
+      "state": [
+        2,
+        0,
+        0
+      ],
+      "style": 7,
+      "path": "images/card_138.png",
+      "sha256": "102b2bb402772e65708408bc7a4652528303dbd6f52debc29bb6751bd3c107f5"
+    },
+    {
+      "state": [
+        2,
+        0,
+        1
+      ],
+      "style": 7,
+      "path": "images/card_139.png",
+      "sha256": "b55cdb858d8b52eb43e4dc456190050f295bb2c55045b9d089450563b4b2d6f2"
+    },
+    {
+      "state": [
+        2,
+        1,
+        0
+      ],
+      "style": 7,
+      "path": "images/card_140.png",
+      "sha256": "41619fdf15ad7e6c32b13e49b71cd0690b2196f5ea24c9be47a006f9f86bb60e"
+    },
+    {
+      "state": [
+        2,
+        1,
+        1
+      ],
+      "style": 7,
+      "path": "images/card_141.png",
+      "sha256": "3b0e7844cffb52a7426f310ab8863e998b4a781e3877a4355552755f147c7c4b"
+    },
+    {
+      "state": [
+        2,
+        2,
+        0
+      ],
+      "style": 7,
+      "path": "images/card_142.png",
+      "sha256": "18443ec620c49e4112cacc5d414bffaefe9e1a1370793df13ea69e149d575767"
+    },
+    {
+      "state": [
+        2,
+        2,
+        1
+      ],
+      "style": 7,
+      "path": "images/card_143.png",
+      "sha256": "5b2f51eb5d2365146cf39f96f45df294fa3a33376d35ceab49bae9a195eb5cfc"
+    }
+  ]
+}

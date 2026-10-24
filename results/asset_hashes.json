@@ -1,0 +1,8 @@
+{
+  "src\\neural_edsl\\assets\\image.json": "3592f6331e90fd0f66327e188964b3a607aa387602eb5fb069d6703ce96699a0",
+  "src\\neural_edsl\\assets\\image_example.npy": "f6d0bbcd816a34730a41ca9f207d59c7310701d2579c720802cd4d79dbc77827",
+  "src\\neural_edsl\\assets\\proxy.json": "ac8292042ac0a7770ce51e5c51ff76d526bdea2479b01cca76eab008b68b99d3",
+  "src\\neural_edsl\\assets\\proxy_example.npy": "7f659d63f76379e75466af79ca1d673ca39221527538249c83ccd2bef1dbea71",
+  "src\\neural_edsl\\assets\\scene.json": "c67f5d7e075a1b59bd4c34652378a100dd32aaa8455b7d8f7914b82f5a5b9746",
+  "src\\neural_edsl\\assets\\scene_example.npy": "fb5770381158f40c8906d886367d66d872defe30580bdb4e0a112f938af13cac"
+}

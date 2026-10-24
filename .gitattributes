@@ -1,0 +1,7 @@
+* text=auto eol=lf
+src/neural_edsl/assets/** -text -whitespace
+results/** -text -whitespace
+figures/*.svg -whitespace
+*.npy binary
+*.npz binary
+*.png binary

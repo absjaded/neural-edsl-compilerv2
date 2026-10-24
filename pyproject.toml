@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neural-edsl-compiler"
+version = "0.1.0"
+description = "Learned continuous-feature readouts with typed symbolic compilation and execution"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+dependencies = ["numpy>=1.24"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+experiments = ["torch>=2.0", "scikit-learn>=1.3", "Pillow>=9"]
+
+[project.scripts]
+neural-edsl = "neural_edsl.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+neural_edsl = ["assets/*.json", "assets/*.npy"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

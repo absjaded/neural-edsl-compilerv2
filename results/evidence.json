@@ -1,0 +1,947 @@
+{
+  "proxy": {
+    "originals": 68,
+    "folds": 4,
+    "logistic": 51,
+    "sequence": 42,
+    "rbf": 50,
+    "domain_majority": 38,
+    "out_of_fold": [
+      {
+        "group": "cobot_cycle_2",
+        "target": "(command robot (proceed))",
+        "prediction": "(command robot (proceed))",
+        "view_predictions": [
+          "(command robot (proceed))",
+          "(command robot (proceed))",
+          "(command robot (proceed))",
+          "(command robot (proceed))",
+          "(command robot (proceed))"
+        ],
+        "fold": 0
+      },
+      {
+        "group": "cobot_cycle_4",
+        "target": "(command robot (abort))",
+        "prediction": "(detect scene (anomaly))",
+        "view_predictions": [
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))"
+        ],
+        "fold": 0
+      },
+      {
+        "group": "cobot_cycle_6",
+        "target": "(command robot (abort))",
+        "prediction": "(command robot (abort))",
+        "view_predictions": [
+          "(command robot (abort))",
+          "(command robot (abort))",
+          "(command robot (abort))",
+          "(command robot (abort))",
+          "(command robot (abort))"
+        ],
+        "fold": 0
+      },
+      {
+        "group": "cobot_cycle_8",
+        "target": "(command robot (abort))",
+        "prediction": "(command robot (abort))",
+        "view_predictions": [
+          "(command robot (abort))",
+          "(command robot (abort))",
+          "(command robot (abort))",
+          "(command robot (abort))",
+          "(command robot (abort))"
+        ],
+        "fold": 0
+      },
+      {
+        "group": "ucf_Normal_Videos085_x264",
+        "target": "(detect scene (normal))",
+        "prediction": "(detect scene (normal))",
+        "view_predictions": [
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))"
+        ],
+        "fold": 0
+      },
+      {
+        "group": "ucf_Normal_Videos174_x264",
+        "target": "(detect scene (normal))",
+        "prediction": "(detect scene (normal))",
+        "view_predictions": [
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))"
+        ],
+        "fold": 0
+      },
+      {
+        "group": "ucf_Normal_Videos219_x264",
+        "target": "(detect scene (normal))",
+        "prediction": "(detect scene (normal))",
+        "view_predictions": [
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))"
+        ],
+        "fold": 0
+      },
+      {
+        "group": "ucf_Normal_Videos451_x264",
+        "target": "(detect scene (normal))",
+        "prediction": "(detect scene (normal))",
+        "view_predictions": [
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))"
+        ],
+        "fold": 0
+      },
+      {
+        "group": "ucf_Normal_Videos464_x264",
+        "target": "(detect scene (normal))",
+        "prediction": "(detect scene (normal))",
+        "view_predictions": [
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))"
+        ],
+        "fold": 0
+      },
+      {
+        "group": "ucf_Normal_Videos568_x264",
+        "target": "(detect scene (normal))",
+        "prediction": "(detect scene (anomaly))",
+        "view_predictions": [
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))"
+        ],
+        "fold": 0
+      },
+      {
+        "group": "ucf_Normal_Videos677_x264",
+        "target": "(detect scene (normal))",
+        "prediction": "(detect scene (normal))",
+        "view_predictions": [
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))"
+        ],
+        "fold": 0
+      },
+      {
+        "group": "ucf_RoadAccidents041_x264",
+        "target": "(detect scene (anomaly))",
+        "prediction": "(detect scene (anomaly))",
+        "view_predictions": [
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))"
+        ],
+        "fold": 0
+      },
+      {
+        "group": "ucf_RoadAccidents047_x264",
+        "target": "(detect scene (anomaly))",
+        "prediction": "(detect scene (anomaly))",
+        "view_predictions": [
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))"
+        ],
+        "fold": 0
+      },
+      {
+        "group": "ucf_RoadAccidents056_x264",
+        "target": "(detect scene (anomaly))",
+        "prediction": "(detect scene (normal))",
+        "view_predictions": [
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))"
+        ],
+        "fold": 0
+      },
+      {
+        "group": "ucf_RoadAccidents059_x264",
+        "target": "(detect scene (anomaly))",
+        "prediction": "(detect scene (anomaly))",
+        "view_predictions": [
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))"
+        ],
+        "fold": 0
+      },
+      {
+        "group": "ucf_RoadAccidents071_x264",
+        "target": "(detect scene (anomaly))",
+        "prediction": "(detect scene (normal))",
+        "view_predictions": [
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))"
+        ],
+        "fold": 0
+      },
+      {
+        "group": "ucf_RoadAccidents076_x264",
+        "target": "(detect scene (anomaly))",
+        "prediction": "(detect scene (anomaly))",
+        "view_predictions": [
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))"
+        ],
+        "fold": 0
+      },
+      {
+        "group": "cobot_cycle_13",
+        "target": "(command robot (abort))",
+        "prediction": "(command robot (abort))",
+        "view_predictions": [
+          "(command robot (abort))",
+          "(command robot (abort))",
+          "(command robot (abort))",
+          "(command robot (abort))",
+          "(command robot (abort))"
+        ],
+        "fold": 1
+      },
+      {
+        "group": "cobot_cycle_14",
+        "target": "(command robot (proceed))",
+        "prediction": "(command robot (proceed))",
+        "view_predictions": [
+          "(command robot (proceed))",
+          "(command robot (proceed))",
+          "(command robot (proceed))",
+          "(command robot (proceed))",
+          "(command robot (proceed))"
+        ],
+        "fold": 1
+      },
+      {
+        "group": "cobot_cycle_7",
+        "target": "(command robot (abort))",
+        "prediction": "(command robot (abort))",
+        "view_predictions": [
+          "(command robot (abort))",
+          "(command robot (abort))",
+          "(command robot (abort))",
+          "(command robot (abort))",
+          "(command robot (abort))"
+        ],
+        "fold": 1
+      },
+      {
+        "group": "cobot_cycle_9",
+        "target": "(command robot (abort))",
+        "prediction": "(command robot (abort))",
+        "view_predictions": [
+          "(command robot (abort))",
+          "(command robot (abort))",
+          "(command robot (abort))",
+          "(command robot (abort))",
+          "(command robot (abort))"
+        ],
+        "fold": 1
+      },
+      {
+        "group": "ucf_Normal_Videos176_x264",
+        "target": "(detect scene (normal))",
+        "prediction": "(detect scene (anomaly))",
+        "view_predictions": [
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))"
+        ],
+        "fold": 1
+      },
+      {
+        "group": "ucf_Normal_Videos302_x264",
+        "target": "(detect scene (normal))",
+        "prediction": "(detect scene (normal))",
+        "view_predictions": [
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))"
+        ],
+        "fold": 1
+      },
+      {
+        "group": "ucf_Normal_Videos309_x264",
+        "target": "(detect scene (normal))",
+        "prediction": "(detect scene (normal))",
+        "view_predictions": [
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))"
+        ],
+        "fold": 1
+      },
+      {
+        "group": "ucf_Normal_Videos353_x264",
+        "target": "(detect scene (normal))",
+        "prediction": "(detect scene (normal))",
+        "view_predictions": [
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))"
+        ],
+        "fold": 1
+      },
+      {
+        "group": "ucf_Normal_Videos536_x264",
+        "target": "(detect scene (normal))",
+        "prediction": "(detect scene (anomaly))",
+        "view_predictions": [
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))"
+        ],
+        "fold": 1
+      },
+      {
+        "group": "ucf_Normal_Videos628_x264",
+        "target": "(detect scene (normal))",
+        "prediction": "(detect scene (normal))",
+        "view_predictions": [
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))"
+        ],
+        "fold": 1
+      },
+      {
+        "group": "ucf_Normal_Videos824_x264",
+        "target": "(detect scene (normal))",
+        "prediction": "(detect scene (anomaly))",
+        "view_predictions": [
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))"
+        ],
+        "fold": 1
+      },
+      {
+        "group": "ucf_RoadAccidents013_x264",
+        "target": "(detect scene (anomaly))",
+        "prediction": "(detect scene (anomaly))",
+        "view_predictions": [
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))"
+        ],
+        "fold": 1
+      },
+      {
+        "group": "ucf_RoadAccidents038_x264",
+        "target": "(detect scene (anomaly))",
+        "prediction": "(detect scene (anomaly))",
+        "view_predictions": [
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))"
+        ],
+        "fold": 1
+      },
+      {
+        "group": "ucf_RoadAccidents040_x264",
+        "target": "(detect scene (anomaly))",
+        "prediction": "(detect scene (normal))",
+        "view_predictions": [
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))"
+        ],
+        "fold": 1
+      },
+      {
+        "group": "ucf_RoadAccidents094_x264",
+        "target": "(detect scene (anomaly))",
+        "prediction": "(detect scene (anomaly))",
+        "view_predictions": [
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))"
+        ],
+        "fold": 1
+      },
+      {
+        "group": "ucf_RoadAccidents109_x264",
+        "target": "(detect scene (anomaly))",
+        "prediction": "(detect scene (anomaly))",
+        "view_predictions": [
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))"
+        ],
+        "fold": 1
+      },
+      {
+        "group": "ucf_RoadAccidents149_x264",
+        "target": "(detect scene (anomaly))",
+        "prediction": "(detect scene (anomaly))",
+        "view_predictions": [
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))"
+        ],
+        "fold": 1
+      },
+      {
+        "group": "cobot_cycle_1",
+        "target": "(command robot (proceed))",
+        "prediction": "(command robot (proceed))",
+        "view_predictions": [
+          "(command robot (proceed))",
+          "(command robot (proceed))",
+          "(command robot (proceed))",
+          "(command robot (proceed))",
+          "(command robot (proceed))"
+        ],
+        "fold": 2
+      },
+      {
+        "group": "cobot_cycle_10",
+        "target": "(command robot (abort))",
+        "prediction": "(command robot (abort))",
+        "view_predictions": [
+          "(command robot (abort))",
+          "(command robot (abort))",
+          "(command robot (abort))",
+          "(command robot (abort))",
+          "(command robot (abort))"
+        ],
+        "fold": 2
+      },
+      {
+        "group": "cobot_cycle_11",
+        "target": "(command robot (abort))",
+        "prediction": "(command robot (abort))",
+        "view_predictions": [
+          "(command robot (abort))",
+          "(command robot (abort))",
+          "(command robot (abort))",
+          "(command robot (abort))",
+          "(command robot (abort))"
+        ],
+        "fold": 2
+      },
+      {
+        "group": "cobot_cycle_12",
+        "target": "(command robot (abort))",
+        "prediction": "(command robot (abort))",
+        "view_predictions": [
+          "(command robot (abort))",
+          "(command robot (abort))",
+          "(command robot (abort))",
+          "(command robot (abort))",
+          "(command robot (abort))"
+        ],
+        "fold": 2
+      },
+      {
+        "group": "ucf_Normal_Videos053_x264",
+        "target": "(detect scene (normal))",
+        "prediction": "(detect scene (anomaly))",
+        "view_predictions": [
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))"
+        ],
+        "fold": 2
+      },
+      {
+        "group": "ucf_Normal_Videos274_x264",
+        "target": "(detect scene (normal))",
+        "prediction": "(detect scene (normal))",
+        "view_predictions": [
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))"
+        ],
+        "fold": 2
+      },
+      {
+        "group": "ucf_Normal_Videos314_x264",
+        "target": "(detect scene (normal))",
+        "prediction": "(detect scene (normal))",
+        "view_predictions": [
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))"
+        ],
+        "fold": 2
+      },
+      {
+        "group": "ucf_Normal_Videos662_x264",
+        "target": "(detect scene (normal))",
+        "prediction": "(detect scene (normal))",
+        "view_predictions": [
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))"
+        ],
+        "fold": 2
+      },
+      {
+        "group": "ucf_Normal_Videos716_x264",
+        "target": "(detect scene (normal))",
+        "prediction": "(detect scene (anomaly))",
+        "view_predictions": [
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))"
+        ],
+        "fold": 2
+      },
+      {
+        "group": "ucf_Normal_Videos727_x264",
+        "target": "(detect scene (normal))",
+        "prediction": "(detect scene (normal))",
+        "view_predictions": [
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))"
+        ],
+        "fold": 2
+      },
+      {
+        "group": "ucf_RoadAccidents043_x264",
+        "target": "(detect scene (anomaly))",
+        "prediction": "(detect scene (normal))",
+        "view_predictions": [
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))"
+        ],
+        "fold": 2
+      },
+      {
+        "group": "ucf_RoadAccidents060_x264",
+        "target": "(detect scene (anomaly))",
+        "prediction": "(detect scene (anomaly))",
+        "view_predictions": [
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))"
+        ],
+        "fold": 2
+      },
+      {
+        "group": "ucf_RoadAccidents062_x264",
+        "target": "(detect scene (anomaly))",
+        "prediction": "(detect scene (anomaly))",
+        "view_predictions": [
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))"
+        ],
+        "fold": 2
+      },
+      {
+        "group": "ucf_RoadAccidents085_x264",
+        "target": "(detect scene (anomaly))",
+        "prediction": "(detect scene (anomaly))",
+        "view_predictions": [
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))"
+        ],
+        "fold": 2
+      },
+      {
+        "group": "ucf_RoadAccidents120_x264",
+        "target": "(detect scene (anomaly))",
+        "prediction": "(detect scene (anomaly))",
+        "view_predictions": [
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))"
+        ],
+        "fold": 2
+      },
+      {
+        "group": "ucf_RoadAccidents135_x264",
+        "target": "(detect scene (anomaly))",
+        "prediction": "(detect scene (anomaly))",
+        "view_predictions": [
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))"
+        ],
+        "fold": 2
+      },
+      {
+        "group": "ucf_RoadAccidents142_x264",
+        "target": "(detect scene (anomaly))",
+        "prediction": "(detect scene (anomaly))",
+        "view_predictions": [
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))"
+        ],
+        "fold": 2
+      },
+      {
+        "group": "cobot_cycle_0",
+        "target": "(command robot (proceed))",
+        "prediction": "(command robot (proceed))",
+        "view_predictions": [
+          "(command robot (proceed))",
+          "(command robot (proceed))",
+          "(command robot (proceed))",
+          "(command robot (proceed))",
+          "(command robot (proceed))"
+        ],
+        "fold": 3
+      },
+      {
+        "group": "cobot_cycle_3",
+        "target": "(command robot (abort))",
+        "prediction": "(command robot (abort))",
+        "view_predictions": [
+          "(command robot (abort))",
+          "(command robot (abort))",
+          "(command robot (abort))",
+          "(command robot (abort))",
+          "(command robot (abort))"
+        ],
+        "fold": 3
+      },
+      {
+        "group": "cobot_cycle_5",
+        "target": "(command robot (abort))",
+        "prediction": "(command robot (abort))",
+        "view_predictions": [
+          "(command robot (abort))",
+          "(command robot (abort))",
+          "(command robot (abort))",
+          "(command robot (abort))",
+          "(command robot (abort))"
+        ],
+        "fold": 3
+      },
+      {
+        "group": "ucf_Normal_Videos284_x264",
+        "target": "(detect scene (normal))",
+        "prediction": "(detect scene (normal))",
+        "view_predictions": [
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))"
+        ],
+        "fold": 3
+      },
+      {
+        "group": "ucf_Normal_Videos308_x264",
+        "target": "(detect scene (normal))",
+        "prediction": "(detect scene (anomaly))",
+        "view_predictions": [
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))"
+        ],
+        "fold": 3
+      },
+      {
+        "group": "ucf_Normal_Videos321_x264",
+        "target": "(detect scene (normal))",
+        "prediction": "(detect scene (normal))",
+        "view_predictions": [
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))"
+        ],
+        "fold": 3
+      },
+      {
+        "group": "ucf_Normal_Videos766_x264",
+        "target": "(detect scene (normal))",
+        "prediction": "(detect scene (anomaly))",
+        "view_predictions": [
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))"
+        ],
+        "fold": 3
+      },
+      {
+        "group": "ucf_Normal_Videos791_x264",
+        "target": "(detect scene (normal))",
+        "prediction": "(detect scene (anomaly))",
+        "view_predictions": [
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))"
+        ],
+        "fold": 3
+      },
+      {
+        "group": "ucf_Normal_Videos804_x264",
+        "target": "(detect scene (normal))",
+        "prediction": "(detect scene (normal))",
+        "view_predictions": [
+          "(detect scene (normal))",
+          "(detect scene (anomaly))",
+          "(detect scene (normal))",
+          "(detect scene (anomaly))",
+          "(detect scene (normal))"
+        ],
+        "fold": 3
+      },
+      {
+        "group": "ucf_Normal_Videos863_x264",
+        "target": "(detect scene (normal))",
+        "prediction": "(detect scene (anomaly))",
+        "view_predictions": [
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))"
+        ],
+        "fold": 3
+      },
+      {
+        "group": "ucf_RoadAccidents069_x264",
+        "target": "(detect scene (anomaly))",
+        "prediction": "(detect scene (anomaly))",
+        "view_predictions": [
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))"
+        ],
+        "fold": 3
+      },
+      {
+        "group": "ucf_RoadAccidents074_x264",
+        "target": "(detect scene (anomaly))",
+        "prediction": "(detect scene (anomaly))",
+        "view_predictions": [
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))"
+        ],
+        "fold": 3
+      },
+      {
+        "group": "ucf_RoadAccidents079_x264",
+        "target": "(detect scene (anomaly))",
+        "prediction": "(detect scene (normal))",
+        "view_predictions": [
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))"
+        ],
+        "fold": 3
+      },
+      {
+        "group": "ucf_RoadAccidents080_x264",
+        "target": "(detect scene (anomaly))",
+        "prediction": "(detect scene (anomaly))",
+        "view_predictions": [
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))"
+        ],
+        "fold": 3
+      },
+      {
+        "group": "ucf_RoadAccidents081_x264",
+        "target": "(detect scene (anomaly))",
+        "prediction": "(detect scene (normal))",
+        "view_predictions": [
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))",
+          "(detect scene (normal))"
+        ],
+        "fold": 3
+      },
+      {
+        "group": "ucf_RoadAccidents105_x264",
+        "target": "(detect scene (anomaly))",
+        "prediction": "(detect scene (anomaly))",
+        "view_predictions": [
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))"
+        ],
+        "fold": 3
+      },
+      {
+        "group": "ucf_RoadAccidents111_x264",
+        "target": "(detect scene (anomaly))",
+        "prediction": "(detect scene (anomaly))",
+        "view_predictions": [
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))",
+          "(detect scene (anomaly))"
+        ],
+        "fold": 3
+      }
+    ],
+    "source_sha256": "2fd50e4216cf6d6a05e211593f94f4dd25eca0408a12ae5da85e0ce9ea59162c"
+  },
+  "controlled": {
+    "heldout_meanings": 34,
+    "seeds": [
+      11,
+      29,
+      47
+    ],
+    "exact_by_seed": [
+      34,
+      34,
+      34
+    ],
+    "source_sha256": "e8407918bee0a542813667226ce0cabddc63b5112278c1f922f9d59ab7db84e0"
+  },
+  "image": {
+    "selected_by_validation": "logistic",
+    "validation_scores": {
+      "logistic": 1.0,
+      "semantic_grid": 1.0
+    },
+    "heldout_meanings": 34,
+    "style_pairs_per_meaning": 4,
+    "models": {
+      "logistic": {
+        "heldout_correct": 136,
+        "heldout_total": 136,
+        "query_accuracy": 1.0,
+        "field_accuracy": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "counterfactual_accuracy": 1.0,
+        "mismatched_accuracy": 0.0
+      },
+      "semantic_grid": {
+        "heldout_correct": 64,
+        "heldout_total": 136,
+        "query_accuracy": 0.8823529411764706,
+        "field_accuracy": [
+          0.9444444444444444,
+          1.0,
+          1.0
+        ],
+        "counterfactual_accuracy": 0.7058823529411765,
+        "mismatched_accuracy": 0.0
+      }
+    },
+    "source_sha256": "5300a5e9a9d31d7dc62bd7fb5791760e4a69630ab3b3d43eb39ba26133c5c584"
+  }
+}
