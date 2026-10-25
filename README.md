@@ -4,7 +4,7 @@ An experimental interface from continuous features to explicit, typed expression
 
 The research question is whether neural-derived structure can be translated into claims another system can inspect and use. This work began as the learned decoder within NISP, a robot-decision prototype. Developing that component exposed the distinction between producing a valid expression and establishing that it faithfully describes its input.
 
-The implementation separates learned inference from typed construction. For scene descriptions, a deterministic interpreter also makes the inferred structure queryable:
+The implementation separates learned inference from typed construction. With object roles supplied, the scene experiments test whether properties and their combinations survive translation into a description another component can query:
 
 $$
 x\xrightarrow{f_\theta}\widehat{s}\xrightarrow{C}P,
@@ -82,6 +82,8 @@ The scene language's 324 valid meanings have exhaustive compile/render/parse rou
 | Same DINOv2 task, ordinal scalar-grid alternative | **64/136** programs; familiar-combination test programs remain correct |
 
 These are different tasks. The image experiment supplies object cards and role ordering. Its holdout applies to readout training; the pretrained encoder's earlier exposure is unknown. The proxy score counts 68 originals, with augmented versions kept together. [Methods and reproduction](METHODS.md) describes the protocols and the weaker alternatives.
+
+The practical design question is which intermediate representation makes learned information usable by the receiving program. The [relation to existing work](METHODS.md#relation-to-existing-work) connects the readouts and interpreter to concept bottlenecks and neuro-symbolic scene reasoning.
 
 ## Reproduce
 

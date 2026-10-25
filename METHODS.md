@@ -82,6 +82,42 @@ python experiments/composition/experiment.py --kinds continuous_bottleneck --out
 
 The benchmark also enumerates 81 pairs of role-swapped scenes with exactly equal mean-pooled input and different programs. A deterministic pooled-input decoder can be correct on at most one member of each pair. The corresponding 50% ceiling is an input-information constraint; preserving roles removes that ambiguity. Role swapping in the shared readouts is handled equivariantly by construction.
 
+## Relation to existing work
+
+[Concept Bottleneck Models](https://proceedings.mlr.press/v119/koh20a.html)
+(Koh et al., 2020) predict supervised concepts as an intermediate interface to
+a downstream prediction. The scene front ends here also predict named
+properties. A deterministic interpreter then answers queries over those
+properties. This makes the representation consumed by the next component
+explicit and gives each predicted field an executable meaning.
+
+The [Neuro-Symbolic Concept Learner](https://arxiv.org/abs/1904.12584)
+(Mao et al., 2019) connects object-based visual representations to executable
+programs, including tests of new attribute combinations. It learns concepts
+and language from question-answer supervision. Our scene tasks supply object
+roles, property labels and the query language, isolating the feature-to-field
+translation and its generalization. The two evaluation protocols and reported
+accuracies answer different questions.
+
+The released experiments provide three useful cases for that interface:
+
+- **Intermediate representation:** on the same frozen image features and
+  predefined readouts, the validation-selected categorical heads produce
+  136/136 held-out programs, while the ordinal scalar grid produces 64/136.
+  The choice of representation for the fields changes the resulting programs.
+- **Input information:** the controlled task enumerates 81 role-swapped pairs
+  with identical mean-pooled features and different meanings. This establishes
+  the 50% ceiling for a deterministic decoder receiving that pooled input.
+  The supplied-role implementation preserves the information lost by pooling.
+- **Grounding and validity:** exhaustive round trips cover the 324 meanings
+  accepted by the scene language. Held-out program accuracy separately tests
+  whether the readout assigns the intended meaning to its input.
+
+The contribution is a portable implementation and controlled comparison of
+these design choices, alongside the recovered four-target proxy task. The
+broader research question remains faithful translation from neural-derived
+features into useful symbolic structure.
+
 ## Evidence and runtime
 
 [Evidence](results/evidence.json) records counts, per-original proxy predictions and source-result hashes. [Asset hashes](results/asset_hashes.json) identify the shipped parameters and examples. The wheel includes only lightweight parameters and feature examples; the separate 346 MB DINOv2 checkpoint is unnecessary for normal compiler inference.
