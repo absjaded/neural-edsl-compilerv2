@@ -1,6 +1,6 @@
 # Neural eDSL
 
-An experimental interface from continuous features to explicit, typed expressions.
+A research prototype for learned mappings from continuous features into executable symbolic descriptions. Experiments examine semantic accuracy, role binding and compositional generalization. Extending this approach to grounded relational decoding from neural recordings remains an open research direction.
 
 The research question is whether neural-derived structure can be translated into claims another system can inspect and use. This work began as the learned decoder within NISP, a robot-decision prototype. Developing that component exposed the distinction between producing a valid expression and establishing that it faithfully describes its input.
 
@@ -96,7 +96,7 @@ python experiments/image_features/run_experiment.py --features benchmarks/image_
 
 `experiments/proxy.py` refits the fixed linear and RBF baselines from bundled features; the sequence-model score is a retained recovery result. The bundled image features likewise allow refitting the readouts without loading DINOv2. Re-extracting features uses the separately supplied encoder cache described in [METHODS.md](METHODS.md). Full composition training is also included under `experiments/composition/`.
 
-The controlled and DINO experiments were added during recovery to test composition and executable semantics. They complement the original neural-derived motivation with inspectable software demonstrations. The open research connection is faithful neural-to-symbolic translation into a richer executable language.
+The controlled and DINO experiments were added during recovery to test composition and executable semantics. They complement the original neural-derived motivation with inspectable software demonstrations.
 
 Code is available under the [Apache-2.0 license](LICENSE). The
 [earlier decoder snapshot](https://github.com/absjaded/neural-edsl-compilerv2/tree/b5ab679db3da437ad1cd2037d735ee48bbd270b8)
