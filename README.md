@@ -1,10 +1,10 @@
 # Neural eDSL
 
-A research prototype for learned mappings from continuous features into executable symbolic descriptions. Experiments examine semantic accuracy, role binding and compositional generalization. Extending this approach to grounded relational decoding from neural recordings remains an open research direction.
+A neuro-symbolic research prototype for learned mappings from continuous features into executable symbolic descriptions. Experiments examine semantic accuracy, role binding and compositional generalization. Extending this approach to grounded relational decoding from neural recordings remains an open research direction.
 
 The research question is whether neural-derived structure can be translated into claims another system can inspect and use. This work began as the learned decoder within NISP, a robot-decision prototype. Developing that component exposed the distinction between producing a valid expression and establishing that it faithfully describes its input.
 
-The implementation separates learned inference from typed construction. With object roles supplied, the scene experiments test whether properties and their combinations survive translation into a description another component can query:
+The scene experiments combine supervised prediction with symbolic execution: models learn object properties from features, a compiler builds typed descriptions, and an interpreter answers queries about them. With object roles supplied, we test whether properties and their combinations survive translation:
 
 $$
 x\xrightarrow{f_\theta}\widehat{s}\xrightarrow{C}P,
